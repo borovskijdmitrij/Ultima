@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+ 	padding: 0;
+}
+ul {
+	list-style: none;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+body{
+	background: #E3E3E3;
+}
+
+.header {
+	position: absolute;
+	width: 940px;
+	top: 80px;
+	left: 170px;
+}
+
+.logo {
+	float: left;
+	width: 380px;
+	height: 64px;
+	background: url(../images/logo.png);
+}
+
+.player {
+	width: 370px;
+	float: left;
+	margin-left: 190px;
+}
+
+.track {
+	width: 285px;
+	float: left;
+}
+
+.title-track {
+	/*margin-left: 155px;*/
+}
+
+.btn-player {
+	background: url(../images/play.png);
+	width: 56px;
+	height: 56px;
+	float: left;
+	cursor: pointer;
+}
+
+.blog {
+	margin-left: 160px;
+	background-color: #ffffff;
+	margin-right: 20px;
+	overflow-x: hidden;
+	/*overflow-y: auto;*/
+}
+
+.archive {
+	/*background-color: #E3E3E3;*/
+}
+
+.blog, .archive {
+	float: left;
+	width: 470px;
+	height: 850px;	
+	margin-top: 225px;
+	position: relative;
+}
+
+.footer-content {
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 170px;
+	margin-right: 515px;
+	float: left;
+}
+
+.footer-content span {
+	display: block;
+}
+
+.mail {
+	color: #6d7bc6;
+}
+
+.footer-icons {
+	display: inline-block;
+	margin-top: 40px;
+	height: 100px;
+	float: left;
+	width: 300px;
+}
+
+.blog-list-icons {
+	position: absolute;
+}
+
+.blog-list-icons li {
+	display: inline-block;
+	margin-bottom: 15px;
+	margin-right: 13px;
+	margin-left: 20px;
+}
+
+.blog-list-icons li:first-child {
+	margin-top: 45px;
+}
+
+.blog-list-icons li:last-child {
+	margin-bottom: 0;
+	margin-top: 260px;
+}
+
+.blog-list-icons span {
+	display: inline-block;
+	width: 63px;
+	height: 63px;
+}
+
+.blog-icon-vk {
+	background-image: url(../images/social-2.png); 
+	background-position: 0 0; 
+}
+
+.blog-icon-vk:hover {
+	background-image: url(../images/social-hover-2.png); 
+	background-position: 0 0px; 
+  	cursor: pointer;	
+}
+
+
+.blog-icon-facebook {
+	background-image: url(../images/social-2.png); 
+	background-position: 0 -441px;
+}
+
+.blog-icon-facebook:hover {
+
+	background-image: url(../images/social-2.png); 
+	background-position: 0 -441px;
+  	cursor: pointer;
+}
+
+.blog-icon-twitter { 
+	background-image: url(../images/social-2.png); 
+	background-position: 0 -63px;
+}
+
+.blog-icon-twitter:hover {
+	background-image: url(../images/social-2.png); 
+	background-position: 0 -63px;
+  	cursor: pointer;
+}
+
+.blog-icon-instagram { 
+	background-image: url(../images/social-2.png); 
+	background-position: 0 -126px
+}
+
+.blog-icon-instagram:hover {
+	background-image: url(../images/social-2.png); 
+	background-position: 0 -126px
+  	cursor: pointer;
+}
+
+.list-icons li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.list-icons li:last-child {
+	margin-right: 0;
+}
+
+.list-icons span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-vk {
+	background-image: url(../images/social.png); 
+	background-position: 0 0; 
+}
+
+.icon-vk:hover {
+	background-image: url(../images/social-hover.png); 
+	background-position: 0 0; 
+  	cursor: pointer;	
+}
+
+
+.icon-facebook {
+	background-image: url(../images/social.png); 
+	background-position: -47px 0; 
+}
+
+.icon-facebook:hover {
+	background-image: url(../images/social-hover.png); 
+	background-position: -47px 0; 
+  	cursor: pointer;
+}
+
+.icon-twitter {
+	background-image: url(../images/social.png); 
+	background-position: -94px 0; 
+}
+
+.icon-twitter:hover {
+	background-image: url(../images/social-hover.png); 
+	background-position: -94px 0; 
+  	cursor: pointer;
+}
+
+.icon-instagram {
+	background-image: url(../images/social.png); 
+	background-position: -140px 0; 
+}
+
+.icon-instagram:hover {
+	background-image: url(../images/social-hover.png); 
+	background-position: -140px 0; 
+  	cursor: pointer;
+}
+
+.content-posts {
+	margin-left: 90px;
+	margin-right: 10px;
+	padding-right: 20px;
+	width: 350px;
+	border-right-color: #e0e0e0;
+	border-right-style: solid; 
+    border-right-width: 4px;
+	/*background-color: #125688;*/
+}
+
+.post {
+	margin-top: 40px;	
+}
+
+.title-radio, 
+.data-post,
+.text-post {
+	display: block;
+	margin-bottom: 20px;
+}
