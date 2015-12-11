@@ -14,7 +14,11 @@
 				<span class="title-track">Название Трека</span>	
 			</div>
 			<div class="btn-player">
-				<audio id="audio" src="1.mp3"></audio>
+				<audio id="audio" preload="metadata">
+					<source src="http://193.232.50.66:8000/;stream.nsv&type=acc" type="audio/acc">
+					<source src="http://193.232.50.66:8000/;stream.nsv&type=acc" type="audio/ogg">
+					<source src="http://193.232.50.66:8000/;stream.nsv&type=acc" type="audio/mpeg">
+				</audio>
 			</div>
 			
 		</div>
@@ -69,18 +73,6 @@
 					<img src="images/img-post-2.png" alt="">
 				</div>
 			</div>
-			<div class="post">
-				<span class="title-radio">Радио Ultima</span>
-				<span class="data-post">15.12.2015</span>
-				<div class="text-post">
-					Текст поста<br>
-					Вторая строка
-				</div>	
-				<div class="img-post">
-					<img src="images/img-post-2.png" alt="">
-				</div>
-			</div>
-
 		</div>	
 	</div>
 	<div class="archive"></div>
