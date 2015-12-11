@@ -19,12 +19,25 @@ $(function(){
 						$('.btn-player').css('backgroundImage', 'url(images/playing.png)');
 						$("#audio").trigger('play');
 					}			
-				} 	
-				console.log(status_music);	
+			} 	
+		})
+	}
+	var status_music_archive = 'play';
+	function controlsMusicArchive () {
+			$('.record-control').on('click', function() {
+			if (status_music_archive == 'play') {
+				status_music_archive = 'playing';
+				$(this).css('backgroundImage', 'url(images/playing-2.png)');
+	
+			} else {
+				status_music_archive = 'play';
+				$(this).css('backgroundImage', 'url(images/play-2.png)');
+			}
+					
 		})
 	}
 	controlMusic();
-	$('.content-posts').jScrollPane();
+	controlsMusicArchive();
 })
 
 

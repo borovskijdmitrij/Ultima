@@ -61,6 +61,7 @@ body{
 
 .archive {
 	/*background-color: #E3E3E3;*/
+	padding-left: 20px;
 }
 
 .blog, .archive {
@@ -69,6 +70,38 @@ body{
 	height: 850px;	
 	margin-top: 225px;
 	position: relative;
+}
+
+.record-control {
+	width: 66px;
+	height: 66px;
+	background: url(../images/play-2.png);	
+	cursor: pointer;
+	float: left;
+}
+
+.record-archive {
+	width: 430px;
+	height: 66px;
+	padding-top: 40px;
+}
+
+.record {
+	width: 130px;
+	padding-left: 20px;
+	float: left;
+}
+
+.record,
+.duration-record {
+	padding-top: 15px;
+}
+
+.duration-record {
+	width: 50px;
+	float: left;
+	padding-left: 160px;
+	display: inline-block;
 }
 
 .footer-content {
