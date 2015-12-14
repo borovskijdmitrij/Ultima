@@ -26,6 +26,7 @@ body{
 	width: 380px;
 	height: 64px;
 	background: url(../images/logo.png);
+	cursor: pointer;
 }
 
 .player {
@@ -64,6 +65,21 @@ body{
 	padding-left: 20px;
 }
 
+
+.progress {
+	margin-top: 15px;
+	width: 346px;
+	height: 4px;
+	background: #e3f2fd;
+	cursor: pointer;
+}
+
+.progress-val {
+	width: 0px;
+	height: 4px;
+	background: #2196f3;
+}
+
 .blog, .archive {
 	float: left;
 	width: 470px;
@@ -72,12 +88,24 @@ body{
 	position: relative;
 }
 
-.record-control {
+/*.record-control {
 	width: 66px;
 	height: 66px;
 	background: url(../images/play-2.png);	
 	cursor: pointer;
-	float: left;
+	float: left;	
+}*/
+
+.play-pause-button {
+	width: 66px;
+	height: 66px;
+	background: url(../images/play-2.png);	
+	cursor: pointer;
+	float: left;	
+}
+
+.pause {
+	background: url(../images/playing-2.png);
 }
 
 .record-archive {
@@ -281,3 +309,5 @@ body{
 	display: block;
 	margin-bottom: 20px;
 }
+
+
